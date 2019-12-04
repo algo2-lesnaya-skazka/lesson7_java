@@ -62,20 +62,22 @@ https://gitforwindows.org/<br>
 
 Git шпаргалка<br>
 
+Откройте cmd консоль. Win button + R затем cmd и Enter<br>
+
 Проверьте персональную конфигурацию:
 <pre><code>$ git config --global -l</code></pre>
 
 Если необходимо сменить имя и почту
 <pre><code>$ git config --global user.name "John Doe" 
-$ git config --global user.email johndoe@example.com
-$ git config --global -l</code></pre>
+git config --global user.email johndoe@example.com
+git config --global -l</code></pre>
 
 Клонируйте репо и перейдите в его каталог
 
 <pre><code>$ git clone https://github.com/algo2-lesnaya-skazka/lesson7_java
-$ cd lesson7_java/
-$ git branch -av
-$ git checkout {kkholopov} </code></pre>
+cd lesson7_java/
+git branch -av
+git checkout {kkholopov} </code></pre>
 
 Откройте проект в Eclipse и сохраняйте прямо в репо каталог, перед коммитом не забудьте удалить  bin
 
