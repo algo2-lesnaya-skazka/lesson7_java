@@ -73,12 +73,12 @@ $ git config --global -l</code></pre>
 Клонируйте репо и перейдите в его каталог
 
 <pre><code>$ git clone https://github.com/algo2-lesnaya-skazka/lesson7_java
-$ cd lesson3_java/
+$ cd lesson7_java/
 $ git branch -av
-$ git checkout <kkholopov></code></pre>
+$ git checkout \<kkholopov\></code></pre>
 
 Откройте проект в Eclipse и сохраняйте прямо в репо каталог, перед коммитом не забудьте удалить  bin
 
 <pre><code>$ git add *
 $ git commit -am  “Add lesson7_java files”
-$ git push origin <kkholopov></code></pre>
+$ git push origin \<kkholopov\></code></pre>
